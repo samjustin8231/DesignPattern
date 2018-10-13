@@ -1,4 +1,4 @@
-package com.example.designpattern;
+package com.example.designpattern.observer;
 
 import org.springframework.context.ApplicationEvent;
 import org.springframework.context.event.SmartApplicationListener;
@@ -7,10 +7,10 @@ import org.springframework.stereotype.Component;
 /**
  * 类的实现描述：TODO 类实现描述
  *
- * @author sunyajun 2018/10/13 下午3:36
+ * @author sunyajun 2018/10/13 下午3:51
  */
-@Component("smsListener")
-public class SmsListener implements SmartApplicationListener {
+@Component("wareHouseListener")
+public class WareHouseListener implements SmartApplicationListener {
     @Override
     public boolean supportsEventType(Class<? extends ApplicationEvent> aClass) {
         return aClass == OrderEvent.class;
@@ -28,7 +28,7 @@ public class SmsListener implements SmartApplicationListener {
      */
     @Override
     public void onApplicationEvent(ApplicationEvent applicationEvent) {
-        System.out.println("执行发短信的业务");
+        System.out.println("执行仓库发货的业务");
     }
 
     @Override

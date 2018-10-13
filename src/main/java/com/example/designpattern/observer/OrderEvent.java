@@ -1,4 +1,4 @@
-package com.example.designpattern;
+package com.example.designpattern.observer;
 
 import org.springframework.context.ApplicationEvent;
 

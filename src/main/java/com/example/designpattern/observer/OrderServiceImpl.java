@@ -1,4 +1,4 @@
-package com.example.designpattern;
+package com.example.designpattern.observer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
