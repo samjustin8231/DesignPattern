@@ -1,5 +1,6 @@
 package com.example.designpattern.observer;
 
+import com.example.designpattern.factory.IBusinessService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -14,8 +15,18 @@ public class DesignpatternApplicationTests {
     @Resource
     private OrderService OrderServiceImpl;
 
+    @Resource
+    private IBusinessService businessInfoServiceImpl;
+
     @Test
-    public void saveOrder() {
+    public void testSaveOrder() {
         OrderServiceImpl.saveOrder("computer");
     }
+
+    @Test
+    public void testGetBusinessInfoList() {
+        businessInfoServiceImpl.getBusinessInfoList("renewal");
+        businessInfoServiceImpl.getBusinessInfoList("ad");
+    }
+
 }
