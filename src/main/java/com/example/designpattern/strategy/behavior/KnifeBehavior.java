@@ -1,4 +1,4 @@
-package com.example.designpattern.strategy;
+package com.example.designpattern.strategy.behavior;
 
 /**
  * 类的实现描述：TODO 类实现描述

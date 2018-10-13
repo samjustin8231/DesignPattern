@@ -1,4 +1,6 @@
-package com.example.designpattern.strategy;
+package com.example.designpattern.strategy.role;
+
+import com.example.designpattern.strategy.behavior.WeaponBehavior;
 
 /**
  * 类的实现描述：TODO 类实现描述

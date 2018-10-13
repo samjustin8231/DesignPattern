@@ -1,4 +1,4 @@
-package com.example.designpattern.strategy;
+package com.example.designpattern.strategy.behavior;
 
 /**
  * 类的实现描述：武器行为接口

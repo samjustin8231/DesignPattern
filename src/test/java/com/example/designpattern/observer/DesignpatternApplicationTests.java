@@ -1,7 +1,6 @@
 package com.example.designpattern.observer;
 
 import com.example.designpattern.factory.IBusinessService;
-import com.example.designpattern.strategy.King;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;

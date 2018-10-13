@@ -1,11 +1,11 @@
 package com.example.designpattern.strategy;
 
+import com.example.designpattern.strategy.role.King;
+import com.example.designpattern.strategy.role.Queen;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
-
-import static org.junit.Assert.*;
 
 /**
  * 类的实现描述：TODO 类实现描述
