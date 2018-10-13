@@ -19,12 +19,6 @@ public class KingTest {
 
     @Test
     public void display() {
-        King king = new King();
-        king.display();
-        king.weaponWay();
 
-        Queen queen = new Queen();
-        queen.display();
-        queen.weaponWay();
     }
 }

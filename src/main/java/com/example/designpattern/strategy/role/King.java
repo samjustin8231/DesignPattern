@@ -14,7 +14,7 @@ public class King extends Role {
     }
 
     @Override
-    void display() {
+    public void display() {
         System.out.println("我是国王");
     }
 }
