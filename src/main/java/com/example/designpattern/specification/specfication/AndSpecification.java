@@ -1,6 +1,6 @@
-package com.example.designpattern.Specification.specfication;
+package com.example.designpattern.specification.specfication;
 
-import com.example.designpattern.Specification.User;
+import com.example.designpattern.specification.User;
 
 /**
  * 类的实现描述：与规格书

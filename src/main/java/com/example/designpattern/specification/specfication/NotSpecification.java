@@ -1,6 +1,6 @@
-package com.example.designpattern.Specification.specfication;
+package com.example.designpattern.specification.specfication;
 
-import com.example.designpattern.Specification.User;
+import com.example.designpattern.specification.User;
 
 /**
  * 类的实现描述：TODO 类实现描述

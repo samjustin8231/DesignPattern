@@ -1,8 +1,8 @@
-package com.example.designpattern.Specification.impl;
+package com.example.designpattern.specification.impl;
 
-import com.example.designpattern.Specification.IUserProvider;
-import com.example.designpattern.Specification.User;
-import com.example.designpattern.Specification.specfication.IUserSpecification;
+import com.example.designpattern.specification.IUserProvider;
+import com.example.designpattern.specification.User;
+import com.example.designpattern.specification.specfication.IUserSpecification;
 
 import java.util.List;
 import java.util.stream.Collectors;

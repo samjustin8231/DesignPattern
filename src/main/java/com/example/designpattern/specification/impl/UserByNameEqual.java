@@ -1,7 +1,7 @@
-package com.example.designpattern.Specification.impl;
+package com.example.designpattern.specification.impl;
 
-import com.example.designpattern.Specification.User;
-import com.example.designpattern.Specification.specfication.CompositeSpecification;
+import com.example.designpattern.specification.User;
+import com.example.designpattern.specification.specfication.CompositeSpecification;
 
 /**
  * 类的实现描述：姓名相同的规格书

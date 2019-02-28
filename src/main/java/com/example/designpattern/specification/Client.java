@@ -1,8 +1,8 @@
-package com.example.designpattern.Specification;
+package com.example.designpattern.specification;
 
-import com.example.designpattern.Specification.impl.UserByAgeThan;
-import com.example.designpattern.Specification.impl.UserProvider;
-import com.example.designpattern.Specification.specfication.IUserSpecification;
+import com.example.designpattern.specification.impl.UserByAgeThan;
+import com.example.designpattern.specification.impl.UserProvider;
+import com.example.designpattern.specification.specfication.IUserSpecification;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.ArrayList;

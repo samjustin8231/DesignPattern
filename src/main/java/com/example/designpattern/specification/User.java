@@ -1,4 +1,4 @@
-package com.example.designpattern.Specification;
+package com.example.designpattern.specification;
 
 import lombok.Data;
 

@@ -1,6 +1,6 @@
-package com.example.designpattern.Specification;
+package com.example.designpattern.specification;
 
-import com.example.designpattern.Specification.specfication.IUserSpecification;
+import com.example.designpattern.specification.specfication.IUserSpecification;
 
 import java.util.List;
 
