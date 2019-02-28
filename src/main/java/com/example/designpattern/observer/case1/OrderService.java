@@ -1,4 +1,4 @@
-package com.example.designpattern.observer;
+package com.example.designpattern.observer.case1;
 
 /**
  * 类IntelliJ IDEA的实现描述：TODO 类实现描述

@@ -1,4 +1,4 @@
-package com.example.designpattern.observer;
+package com.example.designpattern.observer.case1;
 
 import org.springframework.context.ApplicationEvent;
 import org.springframework.context.event.SmartApplicationListener;
