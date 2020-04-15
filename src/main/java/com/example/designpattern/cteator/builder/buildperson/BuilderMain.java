@@ -1,6 +1,4 @@
-package com.example.designpattern.cteator.builder;
-
-import com.example.designpattern.cteator.builder.Person;
+package com.example.designpattern.cteator.builder.buildperson;
 
 /**
  * 类的实现描述：TODO 类实现描述
