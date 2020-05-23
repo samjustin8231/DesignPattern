@@ -5,7 +5,7 @@ package com.example.designpattern.behavior.command.breakfastcase.breakfast;
  * @date 2020/4/15 12:53 PM
  */
 //抽象命令：早餐
-interface Breakfast
+public interface Breakfast
 {
     public abstract void cooking();
 }

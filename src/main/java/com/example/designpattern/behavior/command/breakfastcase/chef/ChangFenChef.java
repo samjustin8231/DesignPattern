@@ -5,11 +5,11 @@ package com.example.designpattern.behavior.command.breakfastcase.chef;
  * @date 2020/4/15 12:55 PM
  */
 //接收者：肠粉厨师
-class ChangFenChef
+public class ChangFenChef
 {
     private static final long serialVersionUID = 1L;
 
-    ChangFenChef()
+    public void ChangFenChef()
     {
 
     }

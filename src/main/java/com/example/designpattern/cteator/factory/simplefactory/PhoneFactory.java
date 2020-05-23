@@ -11,7 +11,8 @@ public class PhoneFactory {
             return new MiPhone();
         } else if (phoneType.equalsIgnoreCase("iPhone")) {
             return new IPhone();
+        } else {
+            throw new IllegalArgumentException();
         }
-        return null;
     }
 }

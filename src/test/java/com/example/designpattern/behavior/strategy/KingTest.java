@@ -1,7 +1,5 @@
 package com.example.designpattern.behavior.strategy;
 
-import com.example.designpattern.behavior.strategy.role.King;
-import com.example.designpattern.behavior.strategy.role.Queen;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.context.SpringBootTest;
